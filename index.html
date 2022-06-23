@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <style>
+    .center {
+      margin: auto;
+      width: 60%;
+      padding: 10%;
+      border: 1px solid #21baba;
+      text-align: center;
+      position: absolute;
+      top: 25%;
+      left: 5%;
+
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+<div class="center" >
+  <form
+          enctype="multipart/form-data"
+          action="http://localhost:8080/check"
+          method="post"
+  >
+    <input type="file" name="file" />
+    <input type="submit" value="Upload" />
+  </form>
+</div>
+</body>
+</html>

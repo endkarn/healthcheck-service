@@ -1,0 +1,17 @@
+[
+  {
+    "file_location": "./success_1.csv",
+    "total_up": 9,
+    "total_down": 0
+  },
+  {
+    "file_location": "./success_2.csv",
+    "total_up": 9,
+    "total_down": 0
+  },
+  {
+    "file_location": "./site.csv",
+    "total_up": 7,
+    "total_down": 1
+  }
+]

@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  api-service:
+    image: endkarn/healthcheck-api:0.0.1
+    container_name: healthcheck-service
+    build:
+      context: .
+    ports:
+      - "8080:8080"
